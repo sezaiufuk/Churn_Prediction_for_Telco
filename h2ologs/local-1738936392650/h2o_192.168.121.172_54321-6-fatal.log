@@ -1,0 +1,27 @@
+02-07 17:10:34.677 192.168.121.172:54321 4754     Thread-3 FATAL water.default: Extensions already registered
+02-07 17:10:34.677 192.168.121.172:54321 4754     Thread-3 FATAL water.default: Stacktrace: 
+02-07 17:10:34.678 192.168.121.172:54321 4754     Thread-3 FATAL water.default: 
+java.lang.Exception: Extensions already registered
+	at water.H2O.fail(H2O.java:1405) [sparkling_water_assembly.jar:?]
+	at water.H2O.fail(H2O.java:1431) [sparkling_water_assembly.jar:?]
+	at water.ExtensionManager.registerCoreExtensions(ExtensionManager.java:100) [sparkling_water_assembly.jar:?]
+	at water.H2O.main(H2O.java:2357) [sparkling_water_assembly.jar:?]
+	at water.H2OStarter.start(H2OStarter.java:22) [sparkling_water_assembly.jar:?]
+	at water.H2OStarter.start(H2OStarter.java:55) [sparkling_water_assembly.jar:?]
+	at org.apache.spark.h2o.backends.internal.InternalH2OBackend$.org$apache$spark$h2o$backends$internal$InternalH2OBackend$$startSingleH2OWorker(InternalH2OBackend.scala:146) [sparkling_water_assembly.jar:?]
+	at org.apache.spark.h2o.backends.internal.InternalH2OBackend.startH2OCluster(InternalH2OBackend.scala:45) [sparkling_water_assembly.jar:?]
+	at ai.h2o.sparkling.H2OContext.<init>(H2OContext.scala:82) [sparkling_water_assembly.jar:?]
+	at ai.h2o.sparkling.H2OContext$.getOrCreate(H2OContext.scala:447) [sparkling_water_assembly.jar:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:569) ~[?:?]
+	at py4j.reflection.MethodInvoker.invoke(MethodInvoker.java:244) [py4j-0.10.9.7.jar:?]
+	at py4j.reflection.ReflectionEngine.invoke(ReflectionEngine.java:374) [py4j-0.10.9.7.jar:?]
+	at py4j.Gateway.invoke(Gateway.java:282) [py4j-0.10.9.7.jar:?]
+	at py4j.commands.AbstractCommand.invokeMethod(AbstractCommand.java:132) [py4j-0.10.9.7.jar:?]
+	at py4j.commands.CallCommand.execute(CallCommand.java:79) [py4j-0.10.9.7.jar:?]
+	at py4j.ClientServerConnection.waitForCommands(ClientServerConnection.java:182) [py4j-0.10.9.7.jar:?]
+	at py4j.ClientServerConnection.run(ClientServerConnection.java:106) [py4j-0.10.9.7.jar:?]
+	at java.lang.Thread.run(Thread.java:840) [?:?]
+02-07 17:10:34.752 192.168.121.172:54321 4754   .172:54321 FATAL water.default: Exiting.

@@ -1,0 +1,124 @@
+02-07 16:57:54.118 192.168.121.172:54321 4754     Thread-3  INFO water.default: ----- H2O started  -----
+02-07 16:57:54.118 192.168.121.172:54321 4754     Thread-3  INFO water.default: Build git branch: rel-3.46.0
+02-07 16:57:54.118 192.168.121.172:54321 4754     Thread-3  INFO water.default: Build git hash: 6f19a169c2c10d11afe7d7a2c8d8eb3e14216dd4
+02-07 16:57:54.119 192.168.121.172:54321 4754     Thread-3  INFO water.default: Build git describe: jenkins-3.46.0.5-22-g6f19a169c2c
+02-07 16:57:54.119 192.168.121.172:54321 4754     Thread-3  INFO water.default: Build project version: 3.46.0.6
+02-07 16:57:54.119 192.168.121.172:54321 4754     Thread-3  INFO water.default: Build age: 3 months and 5 days
+02-07 16:57:54.119 192.168.121.172:54321 4754     Thread-3  INFO water.default: Built by: 'jenkins'
+02-07 16:57:54.119 192.168.121.172:54321 4754     Thread-3  INFO water.default: Built on: '2024-11-02 04:16:28'
+02-07 16:57:54.119 192.168.121.172:54321 4754     Thread-3  INFO water.default: Found H2O Core extensions: [HiveTableImporter, StackTraceCollector, MojoPipeline, HiveFrameSaver]
+02-07 16:57:54.119 192.168.121.172:54321 4754     Thread-3  INFO water.default: Processed H2O arguments: [-internal_security_conf_rel_paths, -name, sparkling-water-sezaiufukoral_local-1738936392650, -port_offset, 1, -hdfs_config, /private/var/folders/v_/rk6mkc692tsd60fr3klt7tfm0000gn/T/spark-01844930-f0b4-4822-9f30-900e152673e5/userFiles-8bcf6da9-f731-4b63-b58e-8524a16b4900/hdfs_conf4544390541695877274.xml, -log_level, INFO, -embedded, -baseport, 54321, -log_dir, /Users/sezaiufukoral/Desktop/churn/h2ologs/local-1738936392650, -quiet, -flatfile, /private/var/folders/v_/rk6mkc692tsd60fr3klt7tfm0000gn/T/spark-01844930-f0b4-4822-9f30-900e152673e5/sparkling-water-63622891-1f38-43f8-9c96-13fea0a9f513/flatfile.txt]
+02-07 16:57:54.119 192.168.121.172:54321 4754     Thread-3  INFO water.default: Java availableProcessors: 8
+02-07 16:57:54.120 192.168.121.172:54321 4754     Thread-3  INFO water.default: Java heap totalMemory: 807,0 MB
+02-07 16:57:54.120 192.168.121.172:54321 4754     Thread-3  INFO water.default: Java heap maxMemory: 1,00 GB
+02-07 16:57:54.120 192.168.121.172:54321 4754     Thread-3  INFO water.default: Java version: Java 17.0.14 (from Homebrew)
+02-07 16:57:54.120 192.168.121.172:54321 4754     Thread-3  INFO water.default: JVM launch parameters: [-Xmx1g, -XX:+IgnoreUnrecognizedVMOptions, --add-opens=java.base/java.lang=ALL-UNNAMED, --add-opens=java.base/java.lang.invoke=ALL-UNNAMED, --add-opens=java.base/java.lang.reflect=ALL-UNNAMED, --add-opens=java.base/java.io=ALL-UNNAMED, --add-opens=java.base/java.net=ALL-UNNAMED, --add-opens=java.base/java.nio=ALL-UNNAMED, --add-opens=java.base/java.util=ALL-UNNAMED, --add-opens=java.base/java.util.concurrent=ALL-UNNAMED, --add-opens=java.base/java.util.concurrent.atomic=ALL-UNNAMED, --add-opens=java.base/jdk.internal.ref=ALL-UNNAMED, --add-opens=java.base/sun.nio.ch=ALL-UNNAMED, --add-opens=java.base/sun.nio.cs=ALL-UNNAMED, --add-opens=java.base/sun.security.action=ALL-UNNAMED, --add-opens=java.base/sun.util.calendar=ALL-UNNAMED, --add-opens=java.security.jgss/sun.security.krb5=ALL-UNNAMED, -Djdk.reflect.useDirectMethodHandle=false]
+02-07 16:57:54.121 192.168.121.172:54321 4754     Thread-3  INFO water.default: JVM process id: 4754@Sezai-MacBook-Air.local
+02-07 16:57:54.121 192.168.121.172:54321 4754     Thread-3  INFO water.default: OS version: Mac OS X 15.0 (aarch64)
+02-07 16:57:54.121 192.168.121.172:54321 4754     Thread-3  INFO water.default: Machine physical memory: 8,00 GB
+02-07 16:57:54.121 192.168.121.172:54321 4754     Thread-3  INFO water.default: Machine locale: tr_TR
+02-07 16:57:54.121 192.168.121.172:54321 4754     Thread-3  WARN water.default: SECURITY_WARNING: web_ip is not specified. H2O Rest API is listening on all available interfaces.
+02-07 16:57:54.121 192.168.121.172:54321 4754     Thread-3  INFO water.default: X-h2o-cluster-id: 1738936673123
+02-07 16:57:54.121 192.168.121.172:54321 4754     Thread-3  INFO water.default: User name: 'sezaiufukoral'
+02-07 16:57:54.121 192.168.121.172:54321 4754     Thread-3  INFO water.default: IPv6 stack selected: false
+02-07 16:57:54.121 192.168.121.172:54321 4754     Thread-3  INFO water.default: Network address/interface is not reachable in 150ms: /fe80:0:0:0:ce81:b1c:bd2c:69e%utun3/name:utun3 (utun3)
+02-07 16:57:54.122 192.168.121.172:54321 4754     Thread-3  INFO water.default: Network address/interface is not reachable in 150ms: /fe80:0:0:0:a82d:669d:5396:ab55%utun2/name:utun2 (utun2)
+02-07 16:57:54.122 192.168.121.172:54321 4754     Thread-3  INFO water.default: Network address/interface is not reachable in 150ms: /fe80:0:0:0:5a2:ad9f:8781:c353%utun1/name:utun1 (utun1)
+02-07 16:57:54.122 192.168.121.172:54321 4754     Thread-3  INFO water.default: Network address/interface is not reachable in 150ms: /fe80:0:0:0:8ac5:b81d:8838:2f93%utun0/name:utun0 (utun0)
+02-07 16:57:54.122 192.168.121.172:54321 4754     Thread-3  INFO water.default: Possible IP Address: llw0 (llw0), fe80:0:0:0:cc6:c6ff:fe68:fea9%llw0
+02-07 16:57:54.122 192.168.121.172:54321 4754     Thread-3  INFO water.default: Network address/interface is not reachable in 150ms: /fe80:0:0:0:cc6:c6ff:fe68:fea9%awdl0/name:awdl0 (awdl0)
+02-07 16:57:54.122 192.168.121.172:54321 4754     Thread-3  INFO water.default: Possible IP Address: en0 (en0), fe80:0:0:0:82d:61bc:a8dc:3f38%en0
+02-07 16:57:54.122 192.168.121.172:54321 4754     Thread-3  INFO water.default: Possible IP Address: en0 (en0), 192.168.121.172
+02-07 16:57:54.122 192.168.121.172:54321 4754     Thread-3  INFO water.default: Possible IP Address: lo0 (lo0), fe80:0:0:0:0:0:0:1%lo0
+02-07 16:57:54.122 192.168.121.172:54321 4754     Thread-3  INFO water.default: Possible IP Address: lo0 (lo0), 0:0:0:0:0:0:0:1%lo0
+02-07 16:57:54.122 192.168.121.172:54321 4754     Thread-3  INFO water.default: Possible IP Address: lo0 (lo0), 127.0.0.1
+02-07 16:57:54.123 192.168.121.172:54321 4754     Thread-3  INFO water.default: H2O node running in unencrypted mode.
+02-07 16:57:54.124 192.168.121.172:54321 4754     Thread-3  INFO water.default: Internal communication uses port: 54322
+02-07 16:57:54.124 192.168.121.172:54321 4754     Thread-3  INFO water.default: Listening for HTTP and REST traffic on http://192.168.121.172:54321/
+02-07 16:57:54.125 192.168.121.172:54321 4754     Thread-3  WARN water.default: Flatfile configuration does not include self: /192.168.121.172:54321, but contains []
+02-07 16:57:54.125 192.168.121.172:54321 4754     Thread-3  INFO water.default: H2O cloud name: 'sparkling-water-sezaiufukoral_local-1738936392650' on /192.168.121.172:54321, static configuration based on -flatfile /private/var/folders/v_/rk6mkc692tsd60fr3klt7tfm0000gn/T/spark-01844930-f0b4-4822-9f30-900e152673e5/sparkling-water-63622891-1f38-43f8-9c96-13fea0a9f513/flatfile.txt
+02-07 16:57:54.125 192.168.121.172:54321 4754     Thread-3  INFO water.default: If you have trouble connecting, try SSH tunneling from your local machine (e.g., via port 55555):
+02-07 16:57:54.125 192.168.121.172:54321 4754     Thread-3  INFO water.default:   1. Open a terminal and run 'ssh -L 55555:localhost:54321 sezaiufukoral@192.168.121.172'
+02-07 16:57:54.126 192.168.121.172:54321 4754     Thread-3  INFO water.default:   2. Point your browser to http://localhost:55555
+02-07 16:57:54.633 192.168.121.172:54321 4754     Thread-3  INFO water.default: Log dir: '/Users/sezaiufukoral/Desktop/churn/h2ologs/local-1738936392650'
+02-07 16:57:54.633 192.168.121.172:54321 4754     Thread-3  INFO water.default: Cur dir: '/Users/sezaiufukoral/Desktop/churn'
+02-07 16:57:54.641 192.168.121.172:54321 4754     Thread-3  INFO water.default: Distributed HTTP import not available (import from HTTP/HTTPS will be eager)
+02-07 16:57:54.653 192.168.121.172:54321 4754     Thread-3  INFO water.default: HDFS subsystem successfully initialized
+02-07 16:57:54.658 192.168.121.172:54321 4754     Thread-3  INFO water.default: S3 subsystem successfully initialized
+02-07 16:57:54.669 192.168.121.172:54321 4754     Thread-3  INFO water.default: GCS subsystem successfully initialized
+02-07 16:57:54.669 192.168.121.172:54321 4754     Thread-3  INFO water.default: Drive subsystem not available
+02-07 16:57:54.669 192.168.121.172:54321 4754     Thread-3  INFO water.default: Flow dir: '/Users/sezaiufukoral/h2oflows'
+02-07 16:57:54.675 192.168.121.172:54321 4754     Thread-3  INFO water.default: Cloud of size 1 formed [/192.168.121.172:54321]
+02-07 16:57:54.684 192.168.121.172:54321 4754     Thread-3  INFO water.default: Registered parsers: [GUESS, ARFF, XLS, SVMLight, AVRO, PARQUET, ORC, CSV]
+02-07 16:57:54.684 192.168.121.172:54321 4754     Thread-3  INFO water.default: HiveTableImporter extension initialized
+02-07 16:57:54.684 192.168.121.172:54321 4754     Thread-3  INFO water.default: StackTraceCollector extension initialized
+02-07 16:57:54.684 192.168.121.172:54321 4754     Thread-3  INFO water.default: MojoPipeline extension initialized
+02-07 16:57:54.684 192.168.121.172:54321 4754     Thread-3  INFO water.default: HiveFrameSaver extension initialized
+02-07 16:57:54.685 192.168.121.172:54321 4754     Thread-3  INFO water.default: Registered 4 core extensions in: 30ms
+02-07 16:57:54.685 192.168.121.172:54321 4754     Thread-3  INFO water.default: Registered H2O core extensions: [HiveTableImporter, StackTraceCollector, MojoPipeline, HiveFrameSaver]
+02-07 16:57:54.887 192.168.121.172:54321 4754     Thread-3  INFO water.default: Registered: 285 REST APIs in: 202ms
+02-07 16:57:54.887 192.168.121.172:54321 4754     Thread-3  INFO water.default: Registered REST API extensions: [Mojo 2 pipeline extensions, Algos, Amazon S3, Sparkling Water REST API Extensions, AutoML, Core V3, TargetEncoder, Core V4]
+02-07 16:57:54.975 192.168.121.172:54321 4754     Thread-3  INFO water.default: Registered: 340 schemas in 87ms
+02-07 16:57:54.976 192.168.121.172:54321 4754     Thread-3  INFO water.default: H2O started in 1873ms
+02-07 16:57:54.976 192.168.121.172:54321 4754     Thread-3  INFO water.default: 
+02-07 16:57:54.976 192.168.121.172:54321 4754     Thread-3  INFO water.default: Open H2O Flow in your web browser: http://192.168.121.172:54321
+02-07 16:57:54.976 192.168.121.172:54321 4754     Thread-3  INFO water.default: 
+02-07 16:57:54.979 192.168.121.172:54321 4754     Thread-3  INFO ai.h2o.sparkling.H2OContext: Connecting to H2O cluster.
+02-07 16:57:54.979 192.168.121.172:54321 4754     Thread-3  INFO ai.h2o.sparkling.H2OContext: Trying to lock H2O cluster 192.168.121.172:54321 - sparkling-water-sezaiufukoral_local-1738936392650.
+02-07 17:10:34.647 192.168.121.172:54321 4754     Thread-3  INFO ai.h2o.sparkling.H2OContext: Sparkling Water version: 3.46.0.6-1-3.5
+02-07 17:10:34.648 192.168.121.172:54321 4754     Thread-3  INFO ai.h2o.sparkling.H2OContext: Spark version: 3.5.4
+02-07 17:10:34.649 192.168.121.172:54321 4754     Thread-3  INFO ai.h2o.sparkling.H2OContext: Integrated H2O version: 3.46.0.6
+02-07 17:10:34.650 192.168.121.172:54321 4754     Thread-3  INFO ai.h2o.sparkling.H2OContext: The following Spark configuration is used: 
+    (spark.repl.local.jars,file:///Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/sparkling_water/sparkling_water_assembly.jar)
+    (spark.jars,file:///Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/sparkling_water/sparkling_water_assembly.jar)
+    (spark.driver.extraJavaOptions,-Djava.net.preferIPv6Addresses=false -XX:+IgnoreUnrecognizedVMOptions --add-opens=java.base/java.lang=ALL-UNNAMED --add-opens=java.base/java.lang.invoke=ALL-UNNAMED --add-opens=java.base/java.lang.reflect=ALL-UNNAMED --add-opens=java.base/java.io=ALL-UNNAMED --add-opens=java.base/java.net=ALL-UNNAMED --add-opens=java.base/java.nio=ALL-UNNAMED --add-opens=java.base/java.util=ALL-UNNAMED --add-opens=java.base/java.util.concurrent=ALL-UNNAMED --add-opens=java.base/java.util.concurrent.atomic=ALL-UNNAMED --add-opens=java.base/jdk.internal.ref=ALL-UNNAMED --add-opens=java.base/sun.nio.ch=ALL-UNNAMED --add-opens=java.base/sun.nio.cs=ALL-UNNAMED --add-opens=java.base/sun.security.action=ALL-UNNAMED --add-opens=java.base/sun.util.calendar=ALL-UNNAMED --add-opens=java.security.jgss/sun.security.krb5=ALL-UNNAMED -Djdk.reflect.useDirectMethodHandle=false)
+    (spark.app.submitTime,1738936392063)
+    (spark.executor.id,driver)
+    (spark.ext.h2o.hdfs_conf,/private/var/folders/v_/rk6mkc692tsd60fr3klt7tfm0000gn/T/spark-01844930-f0b4-4822-9f30-900e152673e5/hdfs_conf3437907381641697609.xml)
+    (spark.app.initial.jar.urls,spark://192.168.121.172:53763/jars/sparkling_water_assembly.jar)
+    (spark.app.startTime,1738936392224)
+    (spark.ext.h2o.cloud.name,sparkling-water-sezaiufukoral_local-1738936392650)
+    (spark.driver.host,192.168.121.172)
+    (spark.rdd.compress,True)
+    (spark.executor.extraJavaOptions,-Djava.net.preferIPv6Addresses=false -XX:+IgnoreUnrecognizedVMOptions --add-opens=java.base/java.lang=ALL-UNNAMED --add-opens=java.base/java.lang.invoke=ALL-UNNAMED --add-opens=java.base/java.lang.reflect=ALL-UNNAMED --add-opens=java.base/java.io=ALL-UNNAMED --add-opens=java.base/java.net=ALL-UNNAMED --add-opens=java.base/java.nio=ALL-UNNAMED --add-opens=java.base/java.util=ALL-UNNAMED --add-opens=java.base/java.util.concurrent=ALL-UNNAMED --add-opens=java.base/java.util.concurrent.atomic=ALL-UNNAMED --add-opens=java.base/jdk.internal.ref=ALL-UNNAMED --add-opens=java.base/sun.nio.ch=ALL-UNNAMED --add-opens=java.base/sun.nio.cs=ALL-UNNAMED --add-opens=java.base/sun.security.action=ALL-UNNAMED --add-opens=java.base/sun.util.calendar=ALL-UNNAMED --add-opens=java.security.jgss/sun.security.krb5=ALL-UNNAMED -Djdk.reflect.useDirectMethodHandle=false)
+    (spark.sql.warehouse.dir,file:/Users/sezaiufukoral/Desktop/churn/spark-warehouse)
+    (spark.app.id,local-1738936392650)
+    (spark.serializer.objectStreamReset,100)
+    (spark.app.name,GuardiansofChurn)
+    (spark.master,local[*])
+    (spark.submit.pyFiles,)
+    (spark.submit.deployMode,client)
+    (spark.locality.wait,0)
+    (spark.ext.h2o.client.language,python)
+    (spark.driver.port,53763)
+    (spark.ui.showConsoleProgress,true)
+02-07 17:10:34.677 192.168.121.172:54321 4754     Thread-3 FATAL water.default: Extensions already registered
+02-07 17:10:34.677 192.168.121.172:54321 4754     Thread-3 FATAL water.default: Stacktrace: 
+02-07 17:10:34.678 192.168.121.172:54321 4754     Thread-3 FATAL water.default: 
+java.lang.Exception: Extensions already registered
+	at water.H2O.fail(H2O.java:1405) [sparkling_water_assembly.jar:?]
+	at water.H2O.fail(H2O.java:1431) [sparkling_water_assembly.jar:?]
+	at water.ExtensionManager.registerCoreExtensions(ExtensionManager.java:100) [sparkling_water_assembly.jar:?]
+	at water.H2O.main(H2O.java:2357) [sparkling_water_assembly.jar:?]
+	at water.H2OStarter.start(H2OStarter.java:22) [sparkling_water_assembly.jar:?]
+	at water.H2OStarter.start(H2OStarter.java:55) [sparkling_water_assembly.jar:?]
+	at org.apache.spark.h2o.backends.internal.InternalH2OBackend$.org$apache$spark$h2o$backends$internal$InternalH2OBackend$$startSingleH2OWorker(InternalH2OBackend.scala:146) [sparkling_water_assembly.jar:?]
+	at org.apache.spark.h2o.backends.internal.InternalH2OBackend.startH2OCluster(InternalH2OBackend.scala:45) [sparkling_water_assembly.jar:?]
+	at ai.h2o.sparkling.H2OContext.<init>(H2OContext.scala:82) [sparkling_water_assembly.jar:?]
+	at ai.h2o.sparkling.H2OContext$.getOrCreate(H2OContext.scala:447) [sparkling_water_assembly.jar:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:569) ~[?:?]
+	at py4j.reflection.MethodInvoker.invoke(MethodInvoker.java:244) [py4j-0.10.9.7.jar:?]
+	at py4j.reflection.ReflectionEngine.invoke(ReflectionEngine.java:374) [py4j-0.10.9.7.jar:?]
+	at py4j.Gateway.invoke(Gateway.java:282) [py4j-0.10.9.7.jar:?]
+	at py4j.commands.AbstractCommand.invokeMethod(AbstractCommand.java:132) [py4j-0.10.9.7.jar:?]
+	at py4j.commands.CallCommand.execute(CallCommand.java:79) [py4j-0.10.9.7.jar:?]
+	at py4j.ClientServerConnection.waitForCommands(ClientServerConnection.java:182) [py4j-0.10.9.7.jar:?]
+	at py4j.ClientServerConnection.run(ClientServerConnection.java:106) [py4j-0.10.9.7.jar:?]
+	at java.lang.Thread.run(Thread.java:840) [?:?]
+02-07 17:10:34.719 192.168.121.172:54321 4754   .172:54321  INFO ai.h2o.org.eclipse.jetty.server.AbstractConnector: Stopped ServerConnector@2066a93c{HTTP/1.1, (http/1.1)}{0.0.0.0:54321}
+02-07 17:10:34.723 192.168.121.172:54321 4754   .172:54321  INFO ai.h2o.org.eclipse.jetty.server.handler.ContextHandler: Stopped a.h.o.e.j.s.ServletContextHandler@30377f64{/,null,STOPPED}
+02-07 17:10:34.752 192.168.121.172:54321 4754   .172:54321 ERROR water.default: Error leading to a cloud kill from 192.168.121.172/192.168.121.172:54321
+02-07 17:10:34.752 192.168.121.172:54321 4754   .172:54321 FATAL water.default: Exiting.
